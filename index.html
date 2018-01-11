@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+        <meta charset="utf-8">
+        <title>Générateur de signature</title>
+        <style>
+			body {
+    margin: 0;
+}
+
+#conteneur {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+#logo {
+	margin-top: 25px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+}
+
+form{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+#leftSubBlock {
+	    float:left;
+}
+
+label {
+    display: block;
+    width: 130px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+input {
+    margin-top: 5px;
+    width: 200px;
+}
+
+button {
+    float: center;
+    width: 200px;
+}
+
+#button-box{
+    margin-left: auto;
+    margin-right: auto;
+    width: 410px;
+}
+
+#button-box-bottom{
+    margin-left: auto;
+    margin-right: auto;
+    width: 210px;
+}
+
+textarea{
+    width:700px;
+    height:100px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+		</style>
+<script type="text/javascript">
+  // Mon code Javascript
+  ...
+</script>
+
+	</head>
+	<body>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="scripts/scripts.js"></script>
+        <div id="conteneur">
+            <div id="logo">
+                <img src="img/unnamed.png">
+            </div>
+		<form>
+			<div id="block">
+			    <div id="leftSubBlock">
+        			<label for="lastname">Nom :</label>
+        			<input type="text" id="lastname" />
+    			</div>
+    			<div>
+    			    <label for="firstname">Prénom :</label>
+        			<input type="text" id="firstname" />
+    			</div>
+    		</div>
+    					<div id="block">
+
+    			<div id="leftSubBlock">
+    			    <label for="positionfr">Fonction Fr</frame>:</label>
+        			<input type="text" id="positionfr" />
+    			</div>
+                <div>
+                    <label for="positionen">Fonction En</frame>:</label>
+                    <input type="text" id="positionen" />
+                </div>
+                <div>
+                    <label for="address">Adresse :</label>
+                    <input type="text" id="address" />
+                </div>
+                			<div id="block">
+
+                <div id="leftSubBlock">
+                    <label for="zipcode">Code Postal :</label>
+                    <input type="text" id="zipcode" />
+                </div>
+                <div>
+                    <label for="city">Ville :</label>
+                    <input type="text" id="city" />
+                </div>
+                    			</div>
+    			<div>
+    			    <label for="email">Mail :</label>
+        			<input type="text" id="email" />
+    			</div>
+    						<div id="block">
+
+    			<div id="leftSubBlock">
+    			    <label for="telephone">Télephone :</label>
+        			<input type="text" id="telephone" />
+    			</div>
+                <div>
+                    <label for="mobilephone">Portable :</label>
+                    <input type="text" id="mobilephone" />
+                </div>
+    			</div>
+    			<div id="button-box">
+                    <input type="button" id="clear" name="clear" value="Vider" >
+                    <input type="button" id="generate" name="generate" value="Générer la signature" >
+    			</div>
+
+                <div>
+                    <textarea id="signature"></textarea>
+                </div>
+
+                <div id="button-box-bottom">
+                    <input type="button" id="copy" name="copy" value="Copier la signature" >
+                </div>
+		</form>
+        </div>
+	</body>
+</html>

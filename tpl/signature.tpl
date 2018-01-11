@@ -1,0 +1,10 @@
+<html>
+	<body>
+		<p>$LASTNAME</p><p>$FIRSTNAME</p>
+		<p>$POSITIONFR</p><p>$POSITIONEN</p>
+		<p>$ADDRESS</p>
+		<p>$ZIPCODE</p><p>$CITY</p>
+		<p>$TELEPHONE</p><p>$MOBILE</p>
+		<p>$EMAIL</p>
+	</body>
+<html>
