@@ -1,6 +1,11 @@
 $(function()
 {
 
+	$("template-selector").load(function(){
+		    $select.append('<option value=' + key + '>' + value + '</option>');
+	});
+
+
     $("#generate").click(function(){
 
     	var lastname = $("#lastname").val();
